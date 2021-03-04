@@ -1,0 +1,112 @@
+body {
+  margin: 0 auto;
+}
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: black;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: max-content;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 30px;
+  padding-top: 35px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 20px;
+  background: linear-gradient(rgb(4, 0, 240), rgb(4, 220, 248));
+}
+
+nav ul li a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+main {
+  background: linear-gradient(black, rgb(83, 83, 83));
+  margin: 0px;
+  color: white;
+}
+
+#BlockOne {
+  background-color: rgba(29, 158, 233, 0.212);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#BlockTwo {
+  background-color: rgba(29, 158, 233, 0.212);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#BlockOne h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#BlockTwo h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#BlockOne p {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+#BlockTwo ul {
+  list-style: square;
+}
+
+#BlockTwo ul li {
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(83, 83, 83);
+  display: block;
+  padding: 40px;
+  text-align: center;
+}
+
+footer a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#AboutUsNavigation:hover {
+  cursor: pointer;
+  border-radius: 20px;
+  background: linear-gradient(rgb(4, 0, 240), rgb(4, 220, 248));
+  color: black;
+  padding: 4px;
+}

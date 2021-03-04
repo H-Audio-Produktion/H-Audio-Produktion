@@ -1,0 +1,88 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  background: black;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: max-content;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 30px;
+  padding-top: 35px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 20px;
+  background: linear-gradient(rgb(4, 0, 240), rgb(4, 220, 248));
+}
+
+nav ul li a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#Home {
+  background-image: url(../images/Mikrophonbackground.jpeg);
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+footer {
+  background-color: black;
+}
+
+footer ul {
+  margin: 0px;
+  padding: 15px;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 20px 100px;
+}
+
+footer ul li a:hover {
+  color: black;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 4px;
+  background: linear-gradient(rgb(4, 0, 240), rgb(4, 220, 248));
+}
